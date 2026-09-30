@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>プライバシーポリシー | わくせいゲーム</title>
+  <meta name="description" content="アプリ「わくせいゲーム - 惑星を進化させる合体パズル」のプライバシーポリシーです。">
+  <meta name="theme-color" content="#f4f2ff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0e0c2a" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="./">わくせいゲーム</a>
+      <nav class="site-nav" aria-label="サイト内">
+        <a href="support.html">よくある質問</a>
+        <a href="terms.html">利用規約</a>
+        <a href="privacy.html" aria-current="page">プライバシーポリシー</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <h1>プライバシーポリシー</h1>
+    <p class="meta">制定日: 2026年10月1日</p>
+    <p>kuwabaky(以下「運営者」)は、スマートフォン向けアプリ「わくせいゲーム - 惑星を進化させる合体パズル」(以下「本アプリ」)における利用者の情報の取り扱いを、以下のとおり定めます。</p>
+
+    <h2>1. 取得する情報</h2>
+    <p>本アプリは、氏名・メールアドレス・電話番号・パスワード・位置情報(GPS)を取得しません。取得する情報は次のとおりです。</p>
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>情報</th><th>内容</th><th>取得のしかた</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>匿名のユーザーID</td><td>本アプリが自動で発行する、個人を特定しない識別子</td><td>初回起動時に Firebase 匿名認証で発行</td></tr>
+          <tr><td>ニックネーム</td><td>利用者が入力した1〜10文字の名前</td><td>初回起動時・設定画面での入力</td></tr>
+          <tr><td>スコアとプレイの記録</td><td>スコア、プレイ時間、投入回数、到達した惑星、端末の OS の種類、記録の日時</td><td>ゲーム終了時に送信</td></tr>
+          <tr><td>購入の情報</td><td>「広告を消す」の購入の有無、購入の識別子(クレジットカードなどの決済情報は含みません)</td><td>App Store での購入・復元時</td></tr>
+          <tr><td>広告識別子など</td><td>広告識別子(IDFA。利用者が許可した場合のみ)、IPアドレス、端末や OS の情報、広告の表示やタップの記録</td><td>広告の表示時に Google AdMob が取得</td></tr>
+          <tr><td>利用状況・障害の情報</td><td>画面の表示やプレイの回数などの利用状況、アプリが異常終了したときの記録、端末や OS の情報</td><td>Firebase Analytics・Crashlytics が取得</td></tr>
+          <tr><td>端末内の保存データ</td><td>ベストスコア、BGM・効果音の設定など</td><td>端末内に保存(ベストスコアはランキングのためサーバーにも保存します)</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2>2. 利用の目的</h2>
+    <ol>
+      <li>ランキングの提供(ニックネームとスコアの表示、順位の計算)</li>
+      <li>不正なスコアの防止と、不適切なニックネームへの対応(通報の受付と非表示)</li>
+      <li>「広告を消す」の購入の確認と復元</li>
+      <li>広告の配信(利用者が許可した場合は、興味に合わせた広告を含む)と、広告の効果の測定</li>
+      <li>不具合の調査、アプリの改善、難易度や広告の頻度の調整</li>
+      <li>お問い合わせへの対応</li>
+    </ol>
+
+    <h2>3. 公開される情報</h2>
+    <p>ニックネームとスコアは、本アプリのランキングで他の利用者に表示されます。ニックネームに本名や連絡先など、個人を特定できる情報を入れないでください。</p>
+    <p>ランキングに不適切なニックネームがある場合、利用者はアプリから通報できます。運営者は通報された名前を確認し、利用規約に反すると判断した場合は非表示または削除します。</p>
+
+    <h2>4. 外部サービスの利用</h2>
+    <p>本アプリは、次の外部サービスを利用しています。各サービスは、それぞれのプライバシーポリシーに従って情報を取り扱います。</p>
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>サービス</th><th>提供者</th><th>用途</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Firebase(匿名認証、Cloud Firestore、Cloud Functions、App Check、Remote Config、Analytics、Crashlytics)</td><td>Google LLC</td><td>ランキング、不正防止、設定値の配信、利用状況の分析、障害の記録</td></tr>
+          <tr><td>Google AdMob(同意管理 UMP を含む)</td><td>Google LLC</td><td>広告の配信・効果測定、広告に関する同意の取得</td></tr>
+          <tr><td>RevenueCat</td><td>RevenueCat, Inc.</td><td>「広告を消す」の購入の確認と復元</td></tr>
+          <tr><td>App Store</td><td>Apple Inc.</td><td>アプリの配信、アプリ内課金の決済</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>各社のプライバシーポリシー:</p>
+    <ul>
+      <li><a href="https://policies.google.com/privacy?hl=ja">Google プライバシーポリシー</a></li>
+      <li><a href="https://firebase.google.com/support/privacy">Firebase のプライバシーとセキュリティ</a></li>
+      <li><a href="https://policies.google.com/technologies/ads?hl=ja">Google の広告に関するポリシー</a></li>
+      <li><a href="https://www.revenuecat.com/privacy">RevenueCat Privacy Policy</a></li>
+      <li><a href="https://www.apple.com/jp/legal/privacy/">Apple のプライバシーポリシー</a></li>
+    </ul>
+    <p>決済は Apple が行い、運営者はクレジットカードなどの決済情報を受け取りません。</p>
+
+    <h2>5. 外国にある第三者への提供</h2>
+    <p>Google LLC、RevenueCat, Inc.、Apple Inc. はアメリカ合衆国の事業者であり、情報はアメリカ合衆国などのサーバーで保存・処理される場合があります。アメリカ合衆国の個人情報の保護に関する制度については、個人情報保護委員会が公表している「外国における個人情報の保護に関する制度等の調査」をご覧ください。各事業者は、それぞれのプライバシーポリシーに基づいて情報を保護する措置を講じています。</p>
+
+    <h2>6. 広告とトラッキング</h2>
+    <p>本アプリは Google AdMob による全画面の広告を表示します。iOS では、最初の広告を表示する前に、興味に合わせた広告のために広告識別子(IDFA)を使ってよいかを App Tracking Transparency の画面で確認します。許可しない場合も広告は表示されますが、興味に基づかない広告になります。許可はいつでも端末の「設定」>「プライバシーとセキュリティ」>「トラッキング」から変更できます。</p>
+    <p>法令で必要な地域では、最初の広告を表示する前に、広告に関する同意を確認します。アプリ内課金「広告を消す」を購入すると、広告は表示されなくなります。</p>
+
+    <h2>7. 保存期間と削除</h2>
+    <ul>
+      <li>ランキングのデータ(ニックネーム・スコア)は、ランキングを提供するあいだ保存します。</li>
+      <li>アプリの 設定 &gt;「データを削除」から、匿名のアカウント、ニックネーム、スコアをサーバーから削除し、端末内のデータも消去できます。削除したデータは元に戻せません。</li>
+      <li>アプリを使えない場合は、下記のお問い合わせ先に、ニックネームと、ランキングに表示されているおおよそのスコア・日付を添えてご連絡ください。確認のうえ削除します。</li>
+      <li>本アプリを削除すると、端末内の保存データは消えます。サーバーのデータは自動では削除されないため、削除を希望する場合はアプリを削除する前に「データを削除」を行ってください。匿名のユーザーIDは再インストールすると新しく発行され、以前のデータとは結び付かなくなります。</li>
+      <li>「広告を消す」の購入記録は Apple と RevenueCat が保持し、購入の復元に使われます。</li>
+      <li>広告・分析サービスが取得した情報の保存期間は、各サービスの定めによります。</li>
+    </ul>
+
+    <h2>8. お子さまの利用</h2>
+    <p>本アプリはすべての年齢の方が遊べるゲームですが、13歳未満のお子さまを主な対象としたものではありません。13歳未満のお子さまが利用する場合は、保護者の方の同意のうえでご利用ください。13歳未満のお子さまの情報を取得したことが分かった場合は、速やかに削除します。</p>
+
+    <h2>9. 安全管理</h2>
+    <p>運営者は、取得した情報への不正なアクセスや漏えいを防ぐため、アクセス権限の管理や通信の暗号化など、適切な安全管理を行います。</p>
+
+    <h2>10. ポリシーの変更</h2>
+    <p>本ポリシーは必要に応じて変更します。重要な変更がある場合は、本アプリまたはこのページでお知らせします。変更後の内容は、このページに掲載した時点で効力を生じます。</p>
+
+    <h2>11. お問い合わせ窓口</h2>
+    <p>本ポリシーに関するお問い合わせは、下記までご連絡ください。</p>
+    <div class="card">
+      <p>運営者: kuwabaky<br>
+      メール: <a href="mailto:kuwabaky@gmail.com">kuwabaky@gmail.com</a></p>
+    </div>
+
+    <p class="meta">2026年10月1日 制定</p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <nav aria-label="フッター">
+        <a href="./">トップ</a>
+        <a href="support.html">よくある質問・お問い合わせ</a>
+        <a href="terms.html">利用規約</a>
+      </nav>
+      <p>&copy; 2026 kuwabaky</p>
+    </div>
+  </footer>
+</body>
+</html>
