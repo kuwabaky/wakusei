@@ -40,7 +40,6 @@
           <tr><td>スコアとプレイの記録</td><td>スコア、プレイ時間、投入回数、到達した惑星、端末の OS の種類、記録の日時</td><td>ゲーム終了時に送信</td></tr>
           <tr><td>購入の情報</td><td>「広告を消す」の購入の有無、購入の識別子(クレジットカードなどの決済情報は含みません)</td><td>App Store での購入・復元時</td></tr>
           <tr><td>広告識別子など</td><td>広告識別子(IDFA。利用者が許可した場合のみ)、IPアドレス、端末や OS の情報、広告の表示やタップの記録</td><td>広告の表示時に Google AdMob が取得</td></tr>
-          <tr><td>利用状況・障害の情報</td><td>画面の表示やプレイの回数などの利用状況、アプリが異常終了したときの記録、端末や OS の情報</td><td>Firebase Analytics・Crashlytics が取得</td></tr>
           <tr><td>端末内の保存データ</td><td>ベストスコア、BGM・効果音の設定など</td><td>端末内に保存(ベストスコアはランキングのためサーバーにも保存します)</td></tr>
         </tbody>
       </table>
@@ -52,7 +51,7 @@
       <li>不正なスコアの防止と、不適切なニックネームへの対応(通報の受付と非表示)</li>
       <li>「広告を消す」の購入の確認と復元</li>
       <li>広告の配信(利用者が許可した場合は、興味に合わせた広告を含む)と、広告の効果の測定</li>
-      <li>不具合の調査、アプリの改善、難易度や広告の頻度の調整</li>
+      <li>不具合の調査とアプリの改善</li>
       <li>お問い合わせへの対応</li>
     </ol>
 
@@ -68,7 +67,7 @@
           <tr><th>サービス</th><th>提供者</th><th>用途</th></tr>
         </thead>
         <tbody>
-          <tr><td>Firebase(匿名認証、Cloud Firestore、Cloud Functions、App Check、Remote Config、Analytics、Crashlytics)</td><td>Google LLC</td><td>ランキング、不正防止、設定値の配信、利用状況の分析、障害の記録</td></tr>
+          <tr><td>Firebase(匿名認証、Cloud Firestore、Cloud Functions、App Check)</td><td>Google LLC</td><td>ランキング、不正防止</td></tr>
           <tr><td>Google AdMob(同意管理 UMP を含む)</td><td>Google LLC</td><td>広告の配信・効果測定、広告に関する同意の取得</td></tr>
           <tr><td>RevenueCat</td><td>RevenueCat, Inc.</td><td>「広告を消す」の購入の確認と復元</td></tr>
           <tr><td>App Store</td><td>Apple Inc.</td><td>アプリの配信、アプリ内課金の決済</td></tr>
